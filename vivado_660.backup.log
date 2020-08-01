@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Aug 01 19:03:22 2020
+# Process ID: 660
+# Current directory: F:/VIVADO_program/FIR_filter_U060/FIR_filter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9972 F:\VIVADO_program\FIR_filter_U060\FIR_filter\FIR_filter.xpr
+# Log file: F:/VIVADO_program/FIR_filter_U060/FIR_filter/vivado.log
+# Journal file: F:/VIVADO_program/FIR_filter_U060/FIR_filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/program/vivado_anzhuang/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 845.738 ; gain = 180.527
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" into library work [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" into library work [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" into library work [F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" into library work [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" into library work [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v:1]
+[Sat Aug 01 19:04:06 2020] Launched synth_1...
+Run output will be captured here: F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a200tfbv676-1
+Top: FIR_filter
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:48 ; elapsed = 00:01:27 . Memory (MB): peak = 849.535 ; gain = 677.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FIR_filter' [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v:2]
+INFO: [Synth 8-638] synthesizing module 'div_clk' [F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v:2]
+INFO: [Synth 8-256] done synthesizing module 'div_clk' (1#1) [F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v:2]
+INFO: [Synth 8-638] synthesizing module 'sin_noise' [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v:2]
+INFO: [Synth 8-638] synthesizing module 'sin_wave' [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v:2]
+INFO: [Synth 8-226] default block is never used [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v:28]
+INFO: [Synth 8-256] done synthesizing module 'sin_wave' (2#1) [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v:2]
+INFO: [Synth 8-256] done synthesizing module 'sin_noise' (3#1) [F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v:2]
+INFO: [Synth 8-638] synthesizing module 'FIR' [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v:2]
+INFO: [Synth 8-256] done synthesizing module 'FIR' (4#1) [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v:2]
+INFO: [Synth 8-256] done synthesizing module 'FIR_filter' (5#1) [F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:48 ; elapsed = 00:01:28 . Memory (MB): peak = 854.707 ; gain = 682.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:49 ; elapsed = 00:01:28 . Memory (MB): peak = 854.707 ; gain = 682.969
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 43 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:03 ; elapsed = 00:01:39 . Memory (MB): peak = 1228.973 ; gain = 1057.234
+16 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1228.973 ; gain = 379.438
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sin_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sin_noise
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/program/vivado_anzhuang/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 7a609c764ca54a418c4d42331912a5fd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" Line 2. Module FIR_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" Line 2. Module div_clk doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" Line 2. Module sin_noise doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" Line 2. Module FIR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" Line 2. Module FIR_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" Line 2. Module div_clk doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" Line 2. Module sin_noise doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" Line 2. Module FIR doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div_clk
+Compiling module xil_defaultlib.sin_wave
+Compiling module xil_defaultlib.sin_noise
+Compiling module xil_defaultlib.FIR
+Compiling module xil_defaultlib.FIR_filter
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav/xsim.dir/test_bench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Aug 01 19:05:33 2020...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -view {F:/VIVADO_program/FIR_filter_U060/FIR_filter/test_bench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+open_wave_config F:/VIVADO_program/FIR_filter_U060/FIR_filter/test_bench_behav.wcfg
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1230.105 ; gain = 1.133
+add_wave {{/test_bench/i_FIR_filter}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5 ms
+run 5 ms
+save_wave_config {F:/VIVADO_program/FIR_filter_U060/FIR_filter/test_bench_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 01 19:08:49 2020...

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_bench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="308333333333fs"></ZoomStartTime>
+      <ZoomEndTime time="11938333333334fs"></ZoomEndTime>
+      <Cursor1Time time="9993110000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="13" />
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/clk_in" type="logic">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/reset_p" type="logic">
+      <obj_property name="ElementShortName">reset_p</obj_property>
+      <obj_property name="ObjectShortName">reset_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/amp_cnt1" type="array">
+      <obj_property name="ElementShortName">amp_cnt1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_cnt1[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/amp_cnt2" type="array">
+      <obj_property name="ElementShortName">amp_cnt2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_cnt2[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/fre_cnt1" type="array">
+      <obj_property name="ElementShortName">fre_cnt1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fre_cnt1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/fre_cnt2" type="array">
+      <obj_property name="ElementShortName">fre_cnt2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fre_cnt2[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/sin_1" type="array">
+      <obj_property name="ElementShortName">sin_1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_1[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/sin_2" type="array">
+      <obj_property name="ElementShortName">sin_2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_2[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/sin_super" type="array">
+      <obj_property name="ElementShortName">sin_super[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_super[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/fir_data" type="array">
+      <obj_property name="ElementShortName">fir_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">fir_data[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/clk_100K" type="logic">
+      <obj_property name="ElementShortName">clk_100K</obj_property>
+      <obj_property name="ObjectShortName">clk_100K</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/sin_high_out" type="array">
+      <obj_property name="ElementShortName">sin_high_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_high_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/i_FIR_filter/sin_low_out" type="array">
+      <obj_property name="ElementShortName">sin_low_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_low_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>

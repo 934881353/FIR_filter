@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Aug 01 19:03:22 2020
+# Process ID: 660
+# Current directory: F:/VIVADO_program/FIR_filter_U060/FIR_filter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9972 F:\VIVADO_program\FIR_filter_U060\FIR_filter\FIR_filter.xpr
+# Log file: F:/VIVADO_program/FIR_filter_U060/FIR_filter/vivado.log
+# Journal file: F:/VIVADO_program/FIR_filter_U060/FIR_filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+synth_design -rtl -name rtl_1
+launch_simulation
+open_wave_config F:/VIVADO_program/FIR_filter_U060/FIR_filter/test_bench_behav.wcfg
+source test_bench.tcl
+add_wave {{/test_bench/i_FIR_filter}} 
+restart
+run 5 ms
+run 5 ms
+save_wave_config {F:/VIVADO_program/FIR_filter_U060/FIR_filter/test_bench_behav.wcfg}
+close_sim

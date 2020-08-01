@@ -1,0 +1,29 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/program/vivado_anzhuang/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 7a609c764ca54a418c4d42331912a5fd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" Line 2. Module FIR_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" Line 2. Module div_clk doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" Line 2. Module sin_noise doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" Line 2. Module FIR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" Line 2. Module FIR_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" Line 2. Module div_clk doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" Line 2. Module sin_noise doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" Line 2. Module sin_wave doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" Line 2. Module FIR doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div_clk
+Compiling module xil_defaultlib.sin_wave
+Compiling module xil_defaultlib.sin_noise
+Compiling module xil_defaultlib.FIR
+Compiling module xil_defaultlib.FIR_filter
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav

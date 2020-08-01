@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sin_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/div_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/sin_noise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sin_noise
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VIVADO_program/FIR_filter_U060/FIR_filter/FIR_filter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

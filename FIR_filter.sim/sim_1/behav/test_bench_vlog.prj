@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../sin_wave.v"
+verilog xil_defaultlib  "../../../FIR.v"
+verilog xil_defaultlib  "../../../div_clk.v"
+verilog xil_defaultlib  "../../../sin_noise.v"
+verilog xil_defaultlib  "../../../FIR_filter.v"
+verilog xil_defaultlib  "../../../FIR_filter.srcs/sim_1/new/test_bench.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
